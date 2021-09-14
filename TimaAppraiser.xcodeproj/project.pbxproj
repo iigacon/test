@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1810A49E26EF616C00178F1B /* MetechCallSdk in Frameworks */ = {isa = PBXBuildFile; productRef = 1810A49D26EF616C00178F1B /* MetechCallSdk */; };
+		7CF2725B0494C7C5014FF54E /* Pods_TimaAppraiser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B46C57E1858EBFD1B856DD7 /* Pods_TimaAppraiser.framework */; };
+		C01F412626AEA9D700CE9F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F412526AEA9D700CE9F59 /* AppDelegate.swift */; };
+		C01F412826AEA9D700CE9F59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F412726AEA9D700CE9F59 /* SceneDelegate.swift */; };
+		C01F412A26AEA9D700CE9F59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F412926AEA9D700CE9F59 /* ViewController.swift */; };
+		C01F412D26AEA9D700CE9F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01F412B26AEA9D700CE9F59 /* Main.storyboard */; };
+		C01F412F26AEA9DA00CE9F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01F412E26AEA9DA00CE9F59 /* Assets.xcassets */; };
+		C01F413226AEA9DA00CE9F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01F413026AEA9DA00CE9F59 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01C7BED55BCA0D903FBA968C /* Pods-TimaAppraiser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimaAppraiser.debug.xcconfig"; path = "Target Support Files/Pods-TimaAppraiser/Pods-TimaAppraiser.debug.xcconfig"; sourceTree = "<group>"; };
+		1BB28F6071B71D0245FC51B8 /* Pods-TimaAppraiser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimaAppraiser.release.xcconfig"; path = "Target Support Files/Pods-TimaAppraiser/Pods-TimaAppraiser.release.xcconfig"; sourceTree = "<group>"; };
+		2B46C57E1858EBFD1B856DD7 /* Pods_TimaAppraiser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimaAppraiser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01F412226AEA9D700CE9F59 /* TimaAppraiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimaAppraiser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01F412526AEA9D700CE9F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C01F412726AEA9D700CE9F59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C01F412926AEA9D700CE9F59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C01F412C26AEA9D700CE9F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C01F412E26AEA9DA00CE9F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C01F413126AEA9DA00CE9F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C01F413326AEA9DA00CE9F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C01F411F26AEA9D700CE9F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF2725B0494C7C5014FF54E /* Pods_TimaAppraiser.framework in Frameworks */,
+				1810A49E26EF616C00178F1B /* MetechCallSdk in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D7EEA9699F428C1C9EBF1BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01C7BED55BCA0D903FBA968C /* Pods-TimaAppraiser.debug.xcconfig */,
+				1BB28F6071B71D0245FC51B8 /* Pods-TimaAppraiser.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		297FF77CE651D9AB0A91F96C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B46C57E1858EBFD1B856DD7 /* Pods_TimaAppraiser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C01F411926AEA9D700CE9F59 = {
+			isa = PBXGroup;
+			children = (
+				C01F412426AEA9D700CE9F59 /* TimaAppraiser */,
+				C01F412326AEA9D700CE9F59 /* Products */,
+				1D7EEA9699F428C1C9EBF1BE /* Pods */,
+				297FF77CE651D9AB0A91F96C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C01F412326AEA9D700CE9F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01F412226AEA9D700CE9F59 /* TimaAppraiser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C01F412426AEA9D700CE9F59 /* TimaAppraiser */ = {
+			isa = PBXGroup;
+			children = (
+				C01F412526AEA9D700CE9F59 /* AppDelegate.swift */,
+				C01F412726AEA9D700CE9F59 /* SceneDelegate.swift */,
+				C01F412926AEA9D700CE9F59 /* ViewController.swift */,
+				C01F412B26AEA9D700CE9F59 /* Main.storyboard */,
+				C01F412E26AEA9DA00CE9F59 /* Assets.xcassets */,
+				C01F413026AEA9DA00CE9F59 /* LaunchScreen.storyboard */,
+				C01F413326AEA9DA00CE9F59 /* Info.plist */,
+			);
+			path = TimaAppraiser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C01F412126AEA9D700CE9F59 /* TimaAppraiser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01F413626AEA9DA00CE9F59 /* Build configuration list for PBXNativeTarget "TimaAppraiser" */;
+			buildPhases = (
+				9658EC817689413F21726BDB /* [CP] Check Pods Manifest.lock */,
+				C01F411E26AEA9D700CE9F59 /* Sources */,
+				C01F411F26AEA9D700CE9F59 /* Frameworks */,
+				C01F412026AEA9D700CE9F59 /* Resources */,
+				5F029177BD67F8D8E2BC7208 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimaAppraiser;
+			packageProductDependencies = (
+				1810A49D26EF616C00178F1B /* MetechCallSdk */,
+			);
+			productName = TimaAppraiser;
+			productReference = C01F412226AEA9D700CE9F59 /* TimaAppraiser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C01F411A26AEA9D700CE9F59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C01F412126AEA9D700CE9F59 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = C01F411D26AEA9D700CE9F59 /* Build configuration list for PBXProject "TimaAppraiser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C01F411926AEA9D700CE9F59;
+			packageReferences = (
+				1810A49C26EF616C00178F1B /* XCRemoteSwiftPackageReference "MetechCallSdk" */,
+			);
+			productRefGroup = C01F412326AEA9D700CE9F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C01F412126AEA9D700CE9F59 /* TimaAppraiser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C01F412026AEA9D700CE9F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F413226AEA9DA00CE9F59 /* LaunchScreen.storyboard in Resources */,
+				C01F412F26AEA9DA00CE9F59 /* Assets.xcassets in Resources */,
+				C01F412D26AEA9D700CE9F59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F029177BD67F8D8E2BC7208 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimaAppraiser/Pods-TimaAppraiser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimaAppraiser/Pods-TimaAppraiser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TimaAppraiser/Pods-TimaAppraiser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9658EC817689413F21726BDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimaAppraiser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C01F411E26AEA9D700CE9F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F412A26AEA9D700CE9F59 /* ViewController.swift in Sources */,
+				C01F412626AEA9D700CE9F59 /* AppDelegate.swift in Sources */,
+				C01F412826AEA9D700CE9F59 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C01F412B26AEA9D700CE9F59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01F412C26AEA9D700CE9F59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C01F413026AEA9DA00CE9F59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01F413126AEA9DA00CE9F59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01F413426AEA9DA00CE9F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C01F413526AEA9DA00CE9F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01F413726AEA9DA00CE9F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01C7BED55BCA0D903FBA968C /* Pods-TimaAppraiser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34725ZVU8Z;
+				INFOPLIST_FILE = TimaAppraiser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.tima.sipcall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01F413826AEA9DA00CE9F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB28F6071B71D0245FC51B8 /* Pods-TimaAppraiser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34725ZVU8Z;
+				INFOPLIST_FILE = TimaAppraiser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.tima.sipcall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01F411D26AEA9D700CE9F59 /* Build configuration list for PBXProject "TimaAppraiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01F413426AEA9DA00CE9F59 /* Debug */,
+				C01F413526AEA9DA00CE9F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01F413626AEA9DA00CE9F59 /* Build configuration list for PBXNativeTarget "TimaAppraiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01F413726AEA9DA00CE9F59 /* Debug */,
+				C01F413826AEA9DA00CE9F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1810A49C26EF616C00178F1B /* XCRemoteSwiftPackageReference "MetechCallSdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/frank269/MetechCallSdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1810A49D26EF616C00178F1B /* MetechCallSdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1810A49C26EF616C00178F1B /* XCRemoteSwiftPackageReference "MetechCallSdk" */;
+			productName = MetechCallSdk;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C01F411A26AEA9D700CE9F59 /* Project object */;
+}

@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MetechCallSdk",
+        "repositoryURL": "https://github.com/frank269/MetechCallSdk.git",
+        "state": {
+          "branch": null,
+          "revision": "444fa1e290326a761ae125f468651f414a032369",
+          "version": "1.2.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
